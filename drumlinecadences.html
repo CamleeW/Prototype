@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>        
+        <title>Drumline Cadences</title>
+        <style>
+            .divv {
+                vertical-align: top;
+                display: inline-block;
+                margin-left: 25px;
+                text-align: center;
+            }
+            .piecename {
+                font-family: Arial, Helvetica, sans-serif;
+                padding: 5px;
+                font-size: 16px;
+                font-weight: bold;
+                transition: opacity .15s;
+                transition: font-size .15s;
+            }
+            .cart {
+            background-color: rgb(255, 226, 59);
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+            border: none;
+            border-radius: 18px;
+            height: 36px;
+            width: 160px;
+            font-size: 14px;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            transition: background-color .3s;
+            transition: height .3s;
+            transition: width .3s;
+        }
+        .cart:hover {
+            background-color: rgb(255, 239, 100);
+            height: 46px;
+            width: 170px;
+            border-radius: 23px;
+            cursor: pointer
+        }
+            </style>
+    </head>
+    <body>
+        <div class="divv">
+            <p class="piecename">
+                Green and Gold (Transcription)                </p>
+            <audio controls src="cadence1.mp3"></audio>
+            <button class="cart">
+                $10 - (Add to Cart)
+            </button>
+        </div>
+        <div class="divv">
+            <p class="piecename">
+                Mustang Pride by Cameron White
+            </p>
+            <audio controls src="Mustang_Pride.mp3"></audio>
+            <button class="cart">
+                $10 - (Add to Cart)
+            </button>
+        </div>
+    </body>
+</html>
