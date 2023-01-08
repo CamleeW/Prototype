@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+                    .title {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 70px;
+            font-weight: bold;
+            border-radius: 65px;
+            background-color: white;
+            border-color: black;
+            border-style: solid;
+            border-width: 4px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .menu {
+        background-image: url(pexels-josh-sorenson-995301.jpg);
+        background-size: 100%;
+        background-position-y: bottom;
+        }
+        .headbuttons {
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 5px;
+        font-size: 16px;
+        font-weight: bold;
+        border-width: 2px;
+        border-style: solid;
+        border-color: black;
+        width: 420px;
+        height: 40px;
+        border-radius: 65px;
+        background-color: white;
+        margin: 10px;
+        transition: background-color .2s;
+    }
+    .headbuttonsoff {
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 5px;
+        font-size: 16px;
+        font-weight: bold;
+        border-width: 2px;
+        border-style: solid;
+        border-color: rgb(112, 112, 112);
+        width: 420px;
+        height: 40px;
+        border-radius: 65px;
+        background-color: rgb(197, 197, 197);
+        color:rgb(112, 112, 112);
+        margin: 10px;
+        transition: background-color .2s;
+    }
+    .headbuttons:hover {
+        background-color: rgb(219, 219, 219);
+        cursor: pointer
+
+    }
+    .piecename {
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 5px;
+            font-size: 16px;
+            font-weight: bold;
+            transition: opacity .15s;
+            transition: font-size .15s;
+        }
+        .feature {
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 50px;
+            margin: 30px
+        }
+        .cart {
+        background-color: rgb(255, 226, 59);
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        border: none;
+        border-radius: 18px;
+        height: 36px;
+        width: 160px;
+        font-size: 14px;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        transition: background-color .3s;
+    }
+    .cart2 {
+        color: rgb(94, 92, 92);
+        background-color: rgb(199, 199, 199);
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        border: none;
+        border-radius: 55px;
+        height: 50px;
+        width: 400px;
+        font-size: 14px;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        transition: background-color .3s;
+    }
+    .line {
+        width: 100%;
+        height: 3px;
+        background-color: black;
+        border: none;
+        margin-top: 10px;
+    }
+    .divv {
+            vertical-align: top;
+            display: inline-block;
+            margin-left: 25px;
+            text-align: center;
+        }
+    .cart:hover {
+        background-color: rgb(255, 239, 100);
+        cursor: pointer;
+        border: 2px;
+    }
+    .subtext {
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            margin-top: 30px;
+        }
+        </style>
+    </head>
+    <body>
+        <div class="menu">
+        <button class="title">
+            Cameron White Percussive Resources
+        </button>
+        <a href="allpieces.html" >
+            <button class="headbuttons">
+                All Pieces
+            </button>
+        </a>
+        <a href="index.html" >
+            <button class="headbuttons">
+                Home Page
+            </button>
+        </a>
+            <button class="headbuttonsoff">
+                Coming Soon
+            </button>
+        </div>
+        </div>
+        <button class="line">
+        </button>
+        <p class="feature"> 
+            Percussion: Beginner to Advanced
+        </p>
+        <button class="cart2">
+            Download Digital Book - Coming Soon
+        </button>
+        <button class="line">
+        </button>
+        <p class="feature"> 
+            Drumline Cadences:
+        </p>
+        <div class="divv">
+            <p class="piecename">
+                Green and Gold (Transcription)
+            </p>
+            <audio controls src="cadence1.mp3"></audio>
+            <a href="Green And Gold Score and Parts.pdf">
+                <button class="cart">
+                    Download Sheets
+                </button>
+                </a>
+        </div>
+        <div class="divv">
+            <p class="piecename">
+                Mustang Pride by Cameron White
+            </p>
+            <audio controls src="Mustang_Pride.mp3"></audio>
+            <a href="Mustang_Pride-Score_and_Parts.pdf">
+                <button class="cart">
+                    Download Sheets
+                </button>
+                </a>
+        </div>
+        <button class="line">
+        </button>
+        <p class="subtext">
+            Cameron White Percussive Resources Version 1.0
+        </p>
+    </body>
+</html>
